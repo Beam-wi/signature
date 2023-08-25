@@ -30,7 +30,7 @@ from office import PDFMerge
 class LeftTabWidget(QWidget):
     MODULE = {
         "合并PDF": PDFMerge,
-        "轮廓": filedialogdemo
+        "透明图": filedialogdemo
     }
 
     def __init__(self, *args, **kwargs):
@@ -94,7 +94,7 @@ QListWidget {
 /*被选中时的背景颜色和左边框颜色*/
 QListWidget::item:selected {
     background: rgb(52, 52, 52);
-    border-left: 2px solid rgb(9, 187, 7);
+    ;
 }
 /*鼠标悬停颜色*/
 HistoryPanel::item:hover {
